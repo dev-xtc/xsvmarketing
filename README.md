@@ -1,2 +1,0 @@
-# xsvdetail
-xlusive detail site
