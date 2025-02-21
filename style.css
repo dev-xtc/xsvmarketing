@@ -8,7 +8,7 @@
 }
 
 body {
-   background: rgb(153, 153, 153);
+   background: rgb(255, 255, 255);
 }
 
 .header {
@@ -47,7 +47,7 @@ body {
 }
 
 .navbar a:hover {
-   color: rgb(204, 74, 255);
+   color: #8fb6ff;
 }
 
 .social-media {
@@ -74,7 +74,7 @@ body {
    transition: .5s;
 }
 .social-mediaa a:hover {
-   border-color: #9539ff;
+   border-color: #8fb6ff;
 }
 .social-media a {
    display: inline-flex;
@@ -124,19 +124,19 @@ body {
 
 .home-content h3 {
    font-size: 40px;
-   color: #b26eff;
+   color: #8fb6ff;
 }
 
 .home-content p {
    font-size: 16px;
    margin: 15px 0 30px;
-   color: #ffffff;
+   color: #000000;
 }
 
 .btn {
    display: inline-block;
    padding: 10px 28px;
-   background: #9539ff;
+   background: #8fb6ff;
    border: 2px solid #290650;
    border-radius: 6px;
    box-shadow: 0 0 10px rgba(0,0,0, 0.1);
@@ -177,7 +177,7 @@ body {
    right: -25%;
    width: 700px;
    height: 700px;
-   background: #7700ff;
+   background: #2a75ff;
    transform: rotate(45deg);
    z-index: -1;
 }
@@ -220,7 +220,7 @@ body {
 
 .single-price {
    width: 100%; /* Adjust width to fit within the container */
-   background: #9539ff;
+   background: #8fb6ff;
    margin-top: 2%;
    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.5);
    text-align: center;
@@ -266,7 +266,7 @@ body {
 }
 
 .single-price:hover {
-   background: rgb(207, 157, 255);
+   background: #8fb6ff;
    color: white;
    box-shadow: 0 0 15px rgba(0, 0, 0, 1);
    z-index: 1;
@@ -279,7 +279,7 @@ body {
 
 .single-price a {
    text-decoration: none;
-   background:  rgb(246, 151, 255);
+   background:  8fb6ffrgb(246, 151, 255);
    color: white;
    padding: 10px 60px;
    margin: 10% auto;
@@ -319,7 +319,7 @@ body {
 .border {
    width: 300px;
    height: 5px;
-   background: #9539ff;
+   background: #8fb6ff;
    margin: 2px auto;
 
 }
