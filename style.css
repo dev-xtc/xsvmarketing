@@ -16,16 +16,16 @@ body {
    top: 0;
    left: 0;
    width: 100%;
-   padding: 30px 8%;
+   padding: 20px 8%;
    background: transparent;
    display: flex;
    justify-content: space-between;
-   align-items: center;
+   align-items: left;
    z-index: 10;
 }
 
 .logo {
-   font-size: 25px;
+   font-size: 22px;
    color: black;
    text-decoration: underline;
    font-weight: 600;
@@ -35,11 +35,11 @@ body {
 
 .navbar a {
    display: inline-block;
-   font-size: 18px;
+   font-size: 16px;
    color: #222;
    text-decoration: underline;
    font-weight: 500;
-   margin: 0 20px;
+   margin: 0 5px;
    transition: .3s;
    opacity: 0;
    animation: slideTop .5s ease forwards;
@@ -47,7 +47,7 @@ body {
 }
 
 .navbar a:hover {
-   color: #8fb6ff;
+   color: #83c7ff;
 }
 
 .social-media {
@@ -358,3 +358,6 @@ body {
    color: #6ab04c;
    margin-bottom: 20px;
 }
+
+
+
