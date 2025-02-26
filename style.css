@@ -16,7 +16,7 @@ body {
    top: 0;
    left: 0;
    width: 100%;
-   padding: 20px 8%;
+   padding: 20px 6%;
    background: transparent;
    display: flex;
    justify-content: space-between;
@@ -34,6 +34,7 @@ body {
 }
 
 .navbar a {
+   align-items: left;
    display: inline-block;
    font-size: 16px;
    color: #222;
@@ -47,6 +48,7 @@ body {
 }
 
 .navbar a:hover {
+   align-items: left;
    color: #83c7ff;
 }
 
@@ -63,8 +65,8 @@ body {
 }
 .social-mediaa a {
    display: inline-flex;
-   justify-content: center;
-   align-items: center;
+   justify-content: right;
+   align-items: right;
    width: 40px;
    height: 40px;
    background: transparent;
@@ -78,8 +80,8 @@ body {
 }
 .social-media a {
    display: inline-flex;
-   justify-content: center;
-   align-items: center;
+   justify-content: right;
+   align-items: right;
    width: 40px;
    height: 40px;
    background: transparent;
@@ -363,21 +365,25 @@ body {
 
 /* Dropdown Button */
 .dropbtn {
-   background-color: #2e70ff;
+   align-items: left;
+   background-color: #0000008e;
    color: rgb(255, 255, 255);
    padding: 5px;
    font-size: 16px;
    border: none;
+   text-align: left;
  }
  
  /* The container <div> - needed to position the dropdown content */
  .dropdown {
-   position: relative;
+   align-items: left;
+   position: left;
    display: inline-block;
  }
  
  /* Dropdown Content (Hidden by Default) */
  .dropdown-content {
+   align-items: left;
    display: none;
    position: absolute;
    background-color: #f1f1f1;
@@ -388,9 +394,10 @@ body {
  
  /* Links inside the dropdown */
  .dropdown-content a {
+   align-items: left;
    color: black;
    padding: 12px 16px;
-   text-decoration: none;
+   text-decoration: underline;
    display: block;
  }
  
