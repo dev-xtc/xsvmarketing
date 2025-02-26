@@ -26,7 +26,7 @@ body {
 
 .logo {
    font-size: 22px;
-   color: black;
+   color: rgb(255, 255, 255);
    text-decoration: underline;
    font-weight: 600;
    opacity: 0;
@@ -60,7 +60,7 @@ body {
 }
 .social-mediaa a i{
    font-size: 24px;
-   color:rgb(0, 0, 0);
+   color:rgb(255, 255, 255);
    transform: rotate(-45deg);
 }
 .social-mediaa a {
@@ -92,12 +92,12 @@ body {
 }
 
 .social-media a:hover {
-   border-color: #000000;
+   border-color: #68bbff;
 }
 
 .social-media a i {
    font-size: 24px;
-   color: #090909;
+   color: #ffffff;
    transform: rotate(-45deg);
 }
 
@@ -122,28 +122,29 @@ body {
 .home-content h1 {
    font-size: 50px;
    line-height: 1.2;
+   color: #ffffff;
 }
 
 .home-content h3 {
    font-size: 40px;
-   color: #8fb6ff;
+   color: #5590ff;
 }
 
 .home-content p {
    font-size: 16px;
    margin: 15px 0 30px;
-   color: #000000;
+   color: #ffffff;
 }
 
 .btn {
    display: inline-block;
    padding: 10px 28px;
-   background: #8fb6ff;
+   background: #5590ff;
    border: 2px solid #290650;
    border-radius: 6px;
    box-shadow: 0 0 10px rgba(0,0,0, 0.1);
    font-size: 16px;
-   color: black;
+   color: rgb(0, 0, 0);
    letter-spacing: 1px;
    text-decoration: none;
    font-weight: 600;
@@ -179,7 +180,7 @@ body {
    right: -25%;
    width: 700px;
    height: 700px;
-   background: #2a75ff;
+   background: #2a75ff00;
    transform: rotate(45deg);
    z-index: -1;
 }
@@ -231,7 +232,7 @@ body {
 }
 .warn {
    text-align: center;
-   color: rgb(0, 0, 0);
+   color: rgb(255, 255, 255);
 }
 .price {
    width: 120px;
@@ -292,7 +293,7 @@ body {
 
 .single-price:hover a {
    background: #262626;
-   color: #fff;
+   color: #ffffff;
 }
 
 
@@ -300,8 +301,8 @@ body {
 .testimonials {
    padding: 100px 0;
    height: 1;
-   background: white;
-   color: rgb(0, 0, 0);
+   background: rgb(0, 0, 0);
+   color: rgb(255, 255, 255);
    text-align: center;
    width: 100%; /* Adjust width to fit within the container */
    margin-top: 2%;
@@ -340,7 +341,7 @@ body {
 }
 
 .testimonial {
-   background: white;
+   background: rgb(0, 0, 0);
    padding: 30px;
 }
 
@@ -366,7 +367,7 @@ body {
 /* Dropdown Button */
 .dropbtn {
    align-items: left;
-   background-color: #0000008e;
+   background-color: #ffffff81;
    color: rgb(255, 255, 255);
    padding: 5px;
    font-size: 16px;
@@ -386,7 +387,7 @@ body {
    align-items: left;
    display: none;
    position: absolute;
-   background-color: #f1f1f1;
+   background-color: #f1f1f1c2;
    min-width: 120px;
    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
    z-index: 1;
@@ -408,4 +409,5 @@ body {
  .dropdown:hover .dropdown-content {display: block;}
  
  /* Change the background color of the dropdown button when the dropdown content is shown */
- .dropdown:hover .dropbtn {background-color: #696969;}
+ .dropdown:hover .dropbtn {background-color: #5aa2ff9a;}
+
