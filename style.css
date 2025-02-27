@@ -76,7 +76,7 @@ body {
    transition: .5s;
 }
 .social-mediaa a:hover {
-   border-color: #8fb6ff;
+   border-color: #5590ff;
 }
 .social-media a {
    display: inline-flex;
@@ -92,7 +92,7 @@ body {
 }
 
 .social-media a:hover {
-   border-color: #68bbff;
+   border-color: #ffffff00;
 }
 
 .social-media a i {
@@ -223,7 +223,7 @@ body {
 
 .single-price {
    width: 100%; /* Adjust width to fit within the container */
-   background: #8fb6ff;
+   background: #5590ff;
    margin-top: 2%;
    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.5);
    text-align: center;
@@ -269,7 +269,7 @@ body {
 }
 
 .single-price:hover {
-   background: #8fb6ff;
+   background: #002b7a;
    color: white;
    box-shadow: 0 0 15px rgba(0, 0, 0, 1);
    z-index: 1;
@@ -322,7 +322,7 @@ body {
 .border {
    width: 300px;
    height: 5px;
-   background: #8fb6ff;
+   background: #5590ff;
    margin: 2px auto;
 
 }
