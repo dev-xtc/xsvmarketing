@@ -251,7 +251,7 @@ body {
 .single-price h1 {
    font-size: 18px;
    color: rgb(0, 0, 0);
-   line-height: 3;
+   line-height: 2;
    text-transform: uppercase;
 }
 
@@ -265,7 +265,6 @@ body {
    font-weight: normal;
    text-align: center;
    color: white;
-   line-height: 2;
 }
 
 .single-price:hover {
