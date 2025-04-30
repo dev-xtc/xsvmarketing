@@ -36,9 +36,9 @@
    * colors
    */
 
-  --safety-orange: hsl(286, 96%, 19%);
+  --safety-orange: hsl(240, 100%, 26%);
   --lavender-gray: hsl(230, 19%, 81%);
-  --persian-rose: hsl(215, 100%, 59%);
+  --persian-rose: hsl(215, 100%, 72%);
   --red-crayola: hsl(150, 100%, 49%);
   --eerie-black: hsl(240, 6%, 10%);
   --light-gray: hsl(0, 0%, 80%);
@@ -79,7 +79,7 @@
    * spacing
    */
 
-  --section-padding: 60px;
+  --section-padding: 50px;
 
   /**
    * shadow
